@@ -1,0 +1,5 @@
+# Folder view settings
+.directory
+
+# Sigrock and Salae Logic firmware extraciton things
+sigrok/*
