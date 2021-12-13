@@ -30,8 +30,17 @@ However, the color / brightness of the LEDs quickly gets out of sync from what t
 | 26   | 81 (Timer1)           | This is a count down timer. As long as the LEDs are on, you can set this to an integer between 1 and 4294967295 (0xffffffff). When it hits 0, lights off. Not sure if this survives power loss.                                                                                                                         |
 | 101  |                       | This seems to be the global state / status of all (?) parameters on the MCU.                                                                                                                                                                                                                                            |
 
+-------------
+
+ESP Module soldered ot the carrier board and `RST` pulled up so it boots.
+
+![](esp-mod-wired-and-working.jpg)
+
+
+After a _lot_ of trial/error, a mostly working tasmota configuration. Sometimes, web UI sliders don't work as expected but the basics are here: color / brightness can be controlled and ww/cw can be toggled
 
 ![](mostly-working-kinda.png)
+
 
 ## The 'carrier board':
 
